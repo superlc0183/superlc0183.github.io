@@ -18,8 +18,8 @@ My research interests lie in **Artificial General Intelligence (AGI)**, with a p
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- *2026.01*: Participated in the Mathematical Contest in Modeling (MCM), focusing on smartphone battery consumption modeling.
-- *2025.09*: Started my research internship at the Institute of Automation, Chinese Academy of Sciences (CASIA)!
+- *2026.01*: 🎉🎉 Participated in the Mathematical Contest in Modeling (MCM), focusing on smartphone battery consumption modeling.
+- *2025.09*: 🚀🚀 Started my research internship at the Institute of Automation, Chinese Academy of Sciences (CASIA)!
 
 <span class='anchor' id='internships'></span>
 # 💻 Internships & Research
