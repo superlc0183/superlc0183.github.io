@@ -12,7 +12,8 @@ author_profile: true
     max-width: 400px;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     padding: 15px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
@@ -27,9 +28,10 @@ author_profile: true
   }
 
   .video-container {
-    border-radius: 15px;
+    border-radius: 12px;
     overflow: hidden;
     line-height: 0;
+    background: #000;
   }
 
   .video-title {
@@ -48,7 +50,7 @@ Welcome to my personal corner! 🎸 🎮
 
   <div class="video-card">
     <div class="video-container">
-      <video width="100%" controls poster="https://via.placeholder.com/400x225/f0f0f0/666666?text=Academic+Life">
+      <video width="100%" controls>
           <source src="{{ '/assets/videos/book.mp4' | relative_url }}" type="video/mp4">
       </video>
     </div>
@@ -57,7 +59,7 @@ Welcome to my personal corner! 🎸 🎮
 
   <div class="video-card">
     <div class="video-container">
-      <video width="100%" controls poster="https://via.placeholder.com/400x225/f0f0f0/666666?text=Creative+Fun">
+      <video width="100%" controls>
           <source src="{{ '/assets/videos/fun.mp4' | relative_url }}" type="video/mp4">
       </video>
     </div>
@@ -66,7 +68,7 @@ Welcome to my personal corner! 🎸 🎮
 
   <div class="video-card">
     <div class="video-container">
-      <video width="100%" controls poster="https://via.placeholder.com/400x225/f0f0f0/666666?text=Exploration">
+      <video width="100%" controls>
           <source src="{{ '/assets/videos/mountain.mp4' | relative_url }}" type="video/mp4">
       </video>
     </div>
