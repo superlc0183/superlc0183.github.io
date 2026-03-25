@@ -26,8 +26,8 @@ My research interests lie in **Artificial General Intelligence (AGI)**, with a p
 - *2025.09 - Present*, **Institute of Automation, Chinese Academy of Sciences (CASIA)**. 
   Participated in the research and development of next-generation multimodal large models. Focused on Visual Referring Grounding (optimizing Transformer models on RefCOCO benchmarks) and Text-to-Video/Image Retrieval tasks.
 - *2025.10 - Present*, **Embodied AI System Research**. 
-  Participated in the R&D of an air-ground collaborative robot system driven by multimodal large language models, realizing intelligent task execution between UAVs and quadruped robots.
-- *2025.05 - 2025.06*, **Hardware Design & Simulation**. 
+  Participated in the RandD of an air-ground collaborative robot system driven by multimodal large language models, realizing intelligent task execution between UAVs and quadruped robots.
+- *2025.05 - 2025.06*, **Hardware Design and Simulation**. 
   Independently designed and simulated an AGC (Automatic Gain Control) operational amplifier based on Multisim, achieving 40dB gain and 500Hz-60kHz bandwidth.
 
 <span class='anchor' id='honors'></span>
@@ -44,16 +44,16 @@ My research interests lie in **Artificial General Intelligence (AGI)**, with a p
 
 <span class='anchor' id='skills'></span>
 # 🔧 Skills
-- **Deep Learning & GenAI:**
+- **Deep Learning and GenAI:**
     - Proficient in **PyTorch** and **Hugging Face** ecosystem.
     - Deep understanding of **Transformer**, **CNN**, and generative architectures (VAE, Diffusion).
     - Experienced in **Multimodal Learning**: **Visual Referring Grounding**, Text-to-Image/Video Retrieval (**CLIP**, **BLIP**).
-- **Embodied AI & Robotics:**
+- **Embodied AI and Robotics:**
     - Research in **Air-Ground Collaborative Systems** and **LLM-driven task planning** (CoT, Planning).
     - Knowledge of **Visual SLAM**, semantic environment perception, and robotic control.
-- **Programming & Engineering:**
-    - **Languages:** Python (Advanced), C/C++ (Embedded & Algorithmic), R, MATLAB.
+- **Programming and Engineering:**
+    - **Languages:** Python (Advanced), C/C++ (Embedded and Algorithmic), R, MATLAB.
     - **Libraries:** NumPy, Pandas, Matplotlib, Scikit-learn, OpenCV.
-- **Tools & Hardware:**
+- **Tools and Hardware:**
     - **Tools:** Git/GitHub, Linux (Ubuntu), VS Code, Docker, LaTeX.
     - **Hardware/Sim:** **Multisim** (Analog/Digital circuit design), hardware-in-the-loop simulation.
