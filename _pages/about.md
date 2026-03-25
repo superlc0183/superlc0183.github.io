@@ -22,7 +22,7 @@ My research interests lie in **Artificial General Intelligence (AGI)**, with a p
 - *2025.09*: 🚀🚀 Started my research internship at the Institute of Automation, Chinese Academy of Sciences (CASIA)!
 
 <span class='anchor' id='internships'></span>
-# 💻 Internships & Research
+# 💻 Internships and Research
 - *2025.09 - Present*, **Institute of Automation, Chinese Academy of Sciences (CASIA)**. 
   Participated in the research and development of next-generation multimodal large models. Focused on Visual Referring Grounding (optimizing Transformer models on RefCOCO benchmarks) and Text-to-Video/Image Retrieval tasks.
 - *2025.10 - Present*, **Embodied AI System Research**. 
