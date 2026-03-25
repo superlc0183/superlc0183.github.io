@@ -24,14 +24,11 @@
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
-      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].resume | default: "Resume / CV" }}</a></li>
+        <li><a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Resume / CV</a></li>
       {% endif %}
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
@@ -39,30 +36,23 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
-      {% endif %}
-      {% if author.wikipedia %}
-        <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-      {% endif %}
     </ul>
 
-    <div style="margin-top: 15px; padding: 0 10px;">
+    <div style="margin-top: 20px; padding: 0 5px;">
       <a class="weatherwidget-io" href="https://forecast7.com/en/39d90116d41/beijing/" data-label_1="BEIJING" data-label_2="WEATHER" data-theme="pure" >BEIJING WEATHER</a>
       <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
       </script>
     </div>
 
-    <div style="margin-top: 15px; padding: 10px; background: rgba(0,0,0,0.02); border-radius: 10px; text-align: center; font-size: 0.85em; color: #666; border: 1px solid rgba(0,0,0,0.05);">
+    <div style="margin-top: 15px; padding: 10px; background: rgba(0,0,0,0.02); border-radius: 12px; text-align: center; font-size: 0.85em; color: #666; border: 1px solid rgba(0,0,0,0.05);">
       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       <div style="margin-bottom: 5px;">
-        <i class="fas fa-eye" style="color: #4ca1af;"></i> Total Views: <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #2c3e50;"><i class="fa fa-spinner fa-spin"></i></span>
+        <i class="fas fa-eye" style="color: #4ca1af;"></i> Views: <span id="busuanzi_value_site_pv" style="font-weight: bold; color: #2c3e50;"><i class="fa fa-spinner fa-spin"></i></span>
       </div>
       <div>
-        <i class="fas fa-user-friends" style="color: #4ca1af;"></i> Unique Visitors: <span id="busuanzi_value_site_uv" style="font-weight: bold; color: #2c3e50;"><i class="fa fa-spinner fa-spin"></i></span>
+        <i class="fas fa-user-friends" style="color: #4ca1af;"></i> Visitors: <span id="busuanzi_value_site_uv" style="font-weight: bold; color: #2c3e50;"><i class="fa fa-spinner fa-spin"></i></span>
       </div>
     </div>
 
   </div> </div> 
-
