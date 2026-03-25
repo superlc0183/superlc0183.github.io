@@ -5,18 +5,37 @@ permalink: /moments/
 author_profile: true
 ---
 
-Welcome to my personal corner! Beyond AI research and automation, I enjoy capturing the fun moments in life. 🎸 🎮
+Welcome to my personal corner! 🎸 🎮
 
-<div style="text-align: center; margin: 30px 0;">
-    <div style="max-width: 600px; margin: 0 auto;">
-        <video width="100%" controls style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-            <source src="{{ '/assets/videos/fun.mp4' | relative_url }}" type="video/mp4">
-        </video>
+<div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; margin-top: 30px;">
+
+  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
+    <div style="background: rgba(0,0,0,0.05); padding: 10px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <video width="100%" controls style="border-radius: 10px;">
+          <source src="{{ '/assets/videos/book.mp4' | relative_url }}" type="video/mp4">
+      </video>
     </div>
-    <p style="margin-top: 15px; font-weight: 500; color: #555;">
-        ✨ Just for fun: A glimpse of my life outside the lab.
-    </p>
-</div>
+    <p style="margin-top: 10px; font-weight: 500; color: #444;">📚 Academic Life</p>
+  </div>
 
+  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
+    <div style="background: rgba(0,0,0,0.05); padding: 10px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <video width="100%" controls style="border-radius: 10px;">
+          <source src="{{ '/assets/videos/fun.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
+    <p style="margin-top: 10px; font-weight: 500; color: #444;">🎬 Creative Fun</p>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
+    <div style="background: rgba(0,0,0,0.05); padding: 10px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <video width="100%" controls style="border-radius: 10px;">
+          <source src="{{ '/assets/videos/mountain.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
+    <p style="margin-top: 10px; font-weight: 500; color: #444;">⛰️ Travel & Exploration</p>
+  </div>
+
+</div>
 ---
-> "zbq is my son." 
+> 乐于探索，向往自由。
